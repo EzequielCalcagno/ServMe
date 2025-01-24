@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oficial Site of ServMe">
+    <meta name="keywords" content="ServMe - Plataform Service">
+    <meta name="author" content="Ezequiel Calcagno">
+    <title>ServMe</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="./img/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon_io/favicon.ico" type="image/x-icon">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <!-- Logo o Brand -->
+                <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+                    <!-- Puedes usar una imagen si lo deseas -->
+                    <figure class="logo-container">
+                        <img src="img/logoServMe.png" alt="App Logo" width="30" height="30" class="me-2 img-fluid">
+                    </figure>
+                    <span class="logo-name">ServMe</span>
+                </a>
+
+                <!-- Contenedor de links y botones de login/register -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Links al centro (mx-auto) -->
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Pricing">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Botones a la derecha -->
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="#" class="icon-container me-4"><span>
+                            <svg width="32" height="32" fill="#000">
+                                <use xlink:href="#icon-search"></use>
+                            </svg>
+                        </span></a>
+
+                    <!-- Pipe como separador -->
+                    <span class="pipe-line me-2">|</span>
+
+                    <a href="#" class="button button-neutral me-2">Sign In</a>
+                    <a href="#" class="button button-primary">Sign Up</a>
+                </div>
+
+                <!-- Botón hamburguesa para pantallas pequeñas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+        <div class="border-line"></div>
+    </header>
+
+    <main class="container-fluid py-2">
+        <div class="row hero-section-container" id="Service">
+            <section class="col-10 hero-section">
+                <span class="hero-badge">Your #1 Service Marketplace</span>
+                <h1 class="hero-title">Find the Service You Need</h1>
+                <p class="hero-paragraph">
+                    Explore a wide range of skilled professionals and connect with the right expert
+                    for your next project — quickly, easily, and at the best price.
+                </p>
+                <div class="d-flex">
+                    <a href="#" class="button button-primary me-2">Browse Services</a>
+                    <a href="#" class="button button-neutral">How It Works <span class="icon-container mx-1">
+                            <svg width="18" height="18" aria-hidden="true">
+                                <use xlink:href="#icon-arrow-right"></use>
+                            </svg>
+                        </span></a>
+                </div>
+            </section>
+            <section class="col-2 hero-image-container">
+                <img src="img/connections.png" alt="Connections" class="hero-image">
+            </section>
+        </div>
+
+        <section class="row secondary-hero-section my-4" id="Pricing">
+            <span class="secondary-hero-badge">Pricing</span>
+            <h1 class="secondary-hero-title">Choose the right plan for you</h1>
+            <p class="secondary-hero-paragraph">Choose an affordable plan that’s packed with the best features for
+                engaging
+                your audience, creating customer loyalty, and driving sales.</p>
+
+            <div class="row pricing-cards g-2 d-flex justify-content-center align-items-center">
+                <!-- Card 1 -->
+                <div class="col-7 col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic</h5>
+                            <p class="card-text fs-2 fw-bold">$19 <span class="fs-6 fw-normal text-muted">/month</span>
+                            </p>
+                            <ul class="list-unstyled">
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Up to 3 Service Listings</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Basic Analytics</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Regular Commission</li>
+                            </ul>
+                            <a href="#" class="button button-secondary mt-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-7 col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-badge">Most Popular</h5>
+                            <h5 class="card-title">Pro</h5>
+                            <p class="card-text fs-2 fw-bold">$49 <span class="fs-6 fw-normal text-muted">/month</span>
+                            </p>
+                            <ul class="list-unstyled">
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>
+                                    Up to 10 Service Listings</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Featured Placement</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>
+                                    Advanced Analytics</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Reduced Commission</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Pro Badges</li>
+                            </ul>
+                            <a href="#" class="button button-primary mt-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-7 col-md-3">
+                    <div class="card text-center h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Enterprise</h5>
+                            <p class="card-text fs-2 fw-bold">$99 <span class="fs-6 fw-normal text-muted">/month</span>
+                            </p>
+                            <ul class="list-unstyled">
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Unlimited Service Listings</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Maximum Visibility</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Pro Badges</li>
+                                <li> <span>
+                                        <svg width="18" height="18" aria-hidden="true">
+                                            <use xlink:href="#icon-check"></use>
+                                        </svg>
+                                    </span>Very Low Commission</li>
+                            </ul>
+                            <a href="#" class="button button-secondary mt-3">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <svg style="display: none;" aria-hidden="true">
+        <symbol id="icon-check" viewBox="0 0 24 24">
+            <path d="M4.89163 13.2687L9.16582 17.5427L18.7085 8" fill="none" stroke="#7640ff" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" />
+        </symbol>
+        <symbol id="icon-cross" viewBox="0 0 24 24">
+            <path
+                d="M6.96967 16.4697C6.67678 16.7626 6.67678 17.2374 6.96967 17.5303C7.26256 17.8232 7.73744 17.8232 8.03033 17.5303L6.96967 16.4697ZM13.0303 12.5303C13.3232 12.2374 13.3232 11.7626 13.0303 11.4697C12.7374 11.1768 12.2626 11.1768 11.9697 11.4697L13.0303 12.5303ZM11.9697 11.4697C11.6768 11.7626 11.6768 12.2374 11.9697 12.5303C12.2626 12.8232 12.7374 12.8232 13.0303 12.5303L11.9697 11.4697ZM18.0303 7.53033C18.3232 7.23744 18.3232 6.76256 18.0303 6.46967C17.7374 6.17678 17.2626 6.17678 16.9697 6.46967L18.0303 7.53033ZM13.0303 11.4697C12.7374 11.1768 12.2626 11.1768 11.9697 11.4697C11.6768 11.7626 11.6768 12.2374 11.9697 12.5303L13.0303 11.4697ZM16.9697 17.5303C17.2626 17.8232 17.7374 17.8232 18.0303 17.5303C18.3232 17.2374 18.3232 16.7626 18.0303 16.4697L16.9697 17.5303ZM11.9697 12.5303C12.2626 12.8232 12.7374 12.8232 13.0303 12.5303C13.3232 12.2374 13.3232 11.7626 13.0303 11.4697L11.9697 12.5303ZM8.03033 6.46967C7.73744 6.17678 7.26256 6.17678 6.96967 6.46967C6.67678 6.76256 6.67678 7.23744 6.96967 7.53033L8.03033 6.46967ZM8.03033 17.5303L13.0303 12.5303L11.9697 11.4697L6.96967 16.4697L8.03033 17.5303ZM13.0303 12.5303L18.0303 7.53033L16.9697 6.46967L11.9697 11.4697L13.0303 12.5303ZM11.9697 12.5303L16.9697 17.5303L18.0303 16.4697L13.0303 11.4697L11.9697 12.5303ZM13.0303 11.4697L8.03033 6.46967L6.96967 7.53033L11.9697 12.5303L13.0303 11.4697Z"
+                fill="#d9534f"></path>
+        </symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M13.4697 5.46967C13.7626 5.17678 14.2374 5.17678 14.5303 5.46967L20.5303 11.4697C20.8232 11.7626 20.8232 12.2374 20.5303 12.5303L14.5303 18.5303C14.2374 18.8232 13.7626 18.8232 13.4697 18.5303C13.1768 18.2374 13.1768 17.7626 13.4697 17.4697L18.1893 12.75H4C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25H18.1893L13.4697 6.53033C13.1768 6.23744 13.1768 5.76256 13.4697 5.46967Z"
+                fill="#7640ff"></path>
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 32 32">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+                <title>search</title>
+                <desc>Created with Sketch Beta.</desc>
+                <defs> </defs>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                    <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-256.000000, -1139.000000)"
+                        fill="#000000">
+                        <path
+                            d="M269.46,1163.45 C263.17,1163.45 258.071,1158.44 258.071,1152.25 C258.071,1146.06 263.17,1141.04 269.46,1141.04 C275.75,1141.04 280.85,1146.06 280.85,1152.25 C280.85,1158.44 275.75,1163.45 269.46,1163.45 L269.46,1163.45 Z M287.688,1169.25 L279.429,1161.12 C281.591,1158.77 282.92,1155.67 282.92,1152.25 C282.92,1144.93 276.894,1139 269.46,1139 C262.026,1139 256,1144.93 256,1152.25 C256,1159.56 262.026,1165.49 269.46,1165.49 C272.672,1165.49 275.618,1164.38 277.932,1162.53 L286.224,1170.69 C286.629,1171.09 287.284,1171.09 287.688,1170.69 C288.093,1170.3 288.093,1169.65 287.688,1169.25 L287.688,1169.25 Z"
+                            id="search" sketch:type="MSShapeGroup"> </path>
+                    </g>
+                </g>
+            </g>
+        </symbol>
+    </svg>
+
+</body>
+
+</html>
