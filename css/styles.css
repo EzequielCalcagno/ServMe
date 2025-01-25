@@ -225,7 +225,7 @@ header .navbar-toggler:focus-visible {
 }
 
 header .navbar-toggler #checkbox {
-    display: none;
+    display: none !important;
 }
 
 header .navbar-toggler .toggle {
