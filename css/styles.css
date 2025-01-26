@@ -65,6 +65,11 @@ a {
     height: 21px;
 }
 
+.card {
+    border: 1px solid var(--primaryColor);
+    background-color: rgba(var(--terciaryColorRGB), 0.8);
+}
+
 /* --------------------------- BUTTONS --------------------------- */
 
 .button {
@@ -220,8 +225,8 @@ header .navbar-toggler {
 
 header .navbar-toggler:focus,
 header .navbar-toggler:focus-visible {
-  outline: none;
-  box-shadow: none;
+    outline: none;
+    box-shadow: none;
 }
 
 header .navbar-toggler #checkbox {
@@ -368,6 +373,11 @@ main {
     height: 500px;
 }
 
+.input-group {
+    background-color: rgba(var(--terciaryColorRGB), 0.8);
+    border: 1px solid var(--secondaryColor);
+}
+
 /* --------------------------- SECONDARY HERO SECTION --------------------------- */
 
 .secondary-hero-section {
@@ -443,4 +453,13 @@ main {
 
 .pricing-cards .card-text .text-muted {
     color: var(--colorHeroParagraph);
+}
+
+/* --------------------------- HEADER --------------------------- */
+
+footer {
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--colorHeroParagraph);
+    color: var(--terciaryColor);
 }
